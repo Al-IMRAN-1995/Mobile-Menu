@@ -1,0 +1,50 @@
+/* Medium Devices Layout: 991px */
+
+@media only screen and (max-width: 991.98px) {
+	/*mobile menu*/
+    .main_menu ul li a {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+    /*mobile mane*/
+
+}
+
+
+/*Tablet Layout: 767px*/
+
+@media only screen and (max-width: 767.98px) {
+    .header {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .logo img {
+        max-height: 40px;
+        position: absolute;
+        z-index: 102;
+        top: 5px;
+        left: 15px;
+    }
+	/*mobile mane*/
+    .mobile_menu_btn,
+    .mobile_menu {
+        display: block;
+    }
+
+    .main_menu {
+        display: none;
+    }
+    /*mobile mane*/
+}
+
+
+/* Small Mobile Layout: 576px) */
+
+@media (max-width: 575.98px) {
+	/*mobile mane*/
+    .mobile_menu_btn {
+        right: 15px;
+    }
+    /*mobile mane*/
+}
